@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>tuftee-test-repo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #7f00ff, #e100ff, #ff6a88);
+    background-size: 200% 200%;
+    animation: gradientShift 10s ease infinite;
+  }
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  .card {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    padding: 3rem 4rem;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  }
+  h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.02em;
+  }
+  p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>tuftee-test-repo</h1>
+    <p>Playing around<br>and Hellor world</p>
+  </div>
+</body>
+</html>
